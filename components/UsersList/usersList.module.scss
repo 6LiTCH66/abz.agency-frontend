@@ -1,0 +1,43 @@
+
+.listContainer{
+  background-color: #00164a;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+.userTable {
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+  thead{
+    background-color: #fff;
+  }
+
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr {
+    background-color: #dddddd;
+  }
+}
+
+
+
+.btnNext{
+  margin-top: 1rem;
+  border-radius: .25rem;
+  background-color: #fff;
+  border: none;
+  padding: 1rem;
+}
+.pageInfo{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+}
