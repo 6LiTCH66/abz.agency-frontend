@@ -1,6 +1,6 @@
 "use client";
 import {FormEvent, useState} from "react";
-import styles from "./UserForm.module.scss";
+import styles from "./userForm.module.scss";
 import {UserCreationForm} from "../../types/user.types";
 import {UserErrors, UserSuccess} from "../../types/error.types";
 import {createUser} from "../../http/userAPI";
